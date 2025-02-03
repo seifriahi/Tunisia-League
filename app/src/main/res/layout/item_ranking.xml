@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:weightSum="8">
+
+    <TextView
+        android:id="@+id/teamRank"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_weight="0.4"
+        android:text="10"
+        android:textColor="@color/black" />
+
+    <ImageView
+        android:id="@+id/teamImage"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:src="@drawable/ic_est"
+        android:layout_marginEnd="2dp"
+        android:layout_weight="0.6"/>
+
+    <TextView
+        android:id="@+id/teamName"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="2dp"
+        android:layout_weight="2"
+        android:text="ES Tunis"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/teamMatches"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="15"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/teamVictory"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="13"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/teamDraw"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/teamDefeat"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="1"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/teamPoints"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_margin="2dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="40"
+        android:textColor="@color/black" />
+
+</LinearLayout>
